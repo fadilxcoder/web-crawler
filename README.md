@@ -2,8 +2,8 @@
 
 - Install : `composer require fabpot/goutte`
 - Crawlers
-- - Symfony website for `h2`
-- - Local car rental login success / failed
+- - Alibaba website for watches names
+- - Local car rental login success / failed (email dispatched in mailtrap)
 
 ## Docs
 

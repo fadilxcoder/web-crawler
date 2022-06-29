@@ -2,6 +2,10 @@
 
 - CLI : `php run` generate JSON db
 - WEB GUI : `index.php` - for debugging
+- API 
+- - https://my-json-server.typicode.com/fadilxcoder/web-crawler
+- - https://my-json-server.typicode.com/fadilxcoder/web-crawler/db
+- - https://my-json-server.typicode.com/fadilxcoder/web-crawler/person-of-interest-season-1
 
 ## Docs
 

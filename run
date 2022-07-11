@@ -5,7 +5,12 @@ require 'vendor/autoload.php';
 
 $client = new Goutte\Client();
 
-const STREAM_URL = 'https://french-stream.re/serie/15608-person-of-interest-saison-1-streaming-complet-vf-vostfr.html';
+const STREAM_URL = 'https://french-stream.re/serie/15609-person-of-interest-saison-2-streaming-complet-vf-vostfr.html';
+/*
+const STREAM_URL = 'https://french-stream.re/serie/15610-person-of-interest-saison-3-streaming-complet-vf-vostfr.html';
+const STREAM_URL = 'https://french-stream.re/serie/15611-person-of-interest-saison-4-streaming-complet-vf-vostfr.html';
+const STREAM_URL = 'https://french-stream.re/serie/15612-person-of-interest-saison-5-streaming-complet-vf-vostfr.html';
+*/
 
 $crawler = $client->request('GET', STREAM_URL);
 $hrefs = $crawler->filter('div.elink .fstab')->each(function ($node) {
@@ -15,7 +20,7 @@ $titles = $crawler->filter('div.elink .fstab')->each(function ($node) {
     return $node->text();
 });
 $db = [
-    'person-of-interest-season-1' => array_combine($titles, $hrefs),
+    'person-of-interest-season' => array_combine($titles, $hrefs),
 ];
 $edb = json_encode($db);
 

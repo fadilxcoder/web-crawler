@@ -1,5 +1,12 @@
 # Notes
 
+- Install : `composer require fabpot/goutte`
+- Crawlers
+- - Alibaba website for watches names
+- - Local car rental login success / failed (email dispatched in mailtrap)
+
+----
+
 - CLI : `php run` generate JSON db
 - WEB GUI : `index.php` - for debugging
 - API 
@@ -13,3 +20,6 @@
 - https://symfony.com/doc/current/http_client.html (HTTP Client - Symfony components)
 - https://symfony.com/doc/current/components/dom_crawler.html (The DomCrawler Component - Symfony components)
 - https://symfony.com/components/BrowserKit (BrowserKit component)
+
+127.0.0.1 web.crawler.local
+127.0.0.1 web.phpunit.local

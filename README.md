@@ -20,6 +20,3 @@
 - https://symfony.com/doc/current/http_client.html (HTTP Client - Symfony components)
 - https://symfony.com/doc/current/components/dom_crawler.html (The DomCrawler Component - Symfony components)
 - https://symfony.com/components/BrowserKit (BrowserKit component)
-
-127.0.0.1 web.crawler.local
-127.0.0.1 web.phpunit.local

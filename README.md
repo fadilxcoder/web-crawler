@@ -1,5 +1,12 @@
 # Notes
 
+- Install : `composer require fabpot/goutte`
+- Crawlers
+- - Alibaba website for watches names
+- - Local car rental login success / failed (email dispatched in mailtrap)
+
+----
+
 - CLI : `php run` generate JSON db
 - WEB GUI : `index.php` - for debugging
 - API 

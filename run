@@ -25,6 +25,10 @@ $db = [
 
 */
 
+/*
+
+# CRAWLER for FOOT Stream
+
 const BASE_URL = 'https://www.streamonsport4.click';
 const STREAM_URL = 'https://www.streamonsport4.click/3200-regarder-cremonese-as-rome-en-streaming-serie-a.html';
 
@@ -59,10 +63,18 @@ foreach ($streamUrls as $url)
         }
     }
 }
-
+*/
 
 $db = [
-    'match-1' => $identifier
+    [
+        'title' => 'Shark Tank - Season 3 - E3',
+        'browser_uuid' => 'https://bmovies.vip/film/shark-tank-season-3-14992/watching.html?ep=14992_3_1',
+    ],
+    [
+        'title' => 'Shark Tank - Season 3 - E4',
+        'browser_uuid' => 'https://bmovies.vip/film/shark-tank-season-3-14992/watching.html?ep=14992_4_1',
+    ],
 ];
+
 $edb = json_encode($db);
 file_put_contents('db.json', $edb);
